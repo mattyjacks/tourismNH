@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotspots | Tourism in New Hampshire Generic Demo Site Number 1 USA USA USA</title>
+    <meta name="description" content="Discover the best places and hotspots to visit in New Hampshire.">
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .page-header {
+            padding: 8rem 5% 4rem;
+            text-align: center;
+            background: linear-gradient(135deg, rgba(255, 87, 34, 0.1), rgba(0, 188, 212, 0.05));
+        }
+
+        .page-header h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hotspot-card {
+            display: flex;
+            align-items: center;
+            gap: 3rem;
+            margin-bottom: 4rem;
+            background: var(--surface);
+            border: 1px solid var(--surface-border);
+            border-radius: 20px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .hotspot-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary);
+        }
+
+        .hotspot-img {
+            flex: 1;
+            min-height: 300px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .hotspot-info {
+            flex: 1;
+            padding: 2rem;
+        }
+
+        .hotspot-info h2 {
+            margin-bottom: 1rem;
+            color: var(--secondary);
+        }
+
+        @media (max-width: 768px) {
+            .hotspot-card {
+                flex-direction: column;
+                gap: 0;
+            }
+
+            .hotspot-img {
+                width: 100%;
+                min-height: 250px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M3.6 9H20.4" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                <path d="M3.6 15H20.4" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                <path d="M11.5 3C11.5 3 7.5 7.5 7.5 12C7.5 16.5 11.5 21 11.5 21" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12.5 3C12.5 3 16.5 7.5 16.5 12C16.5 16.5 12.5 21 12.5 21" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            TINHGDSN1USAUSAUSA
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="hotspots.html" class="active">Hotspots</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="page-header">
+            <h1>Must-Visit <span>Hotspots</span></h1>
+            <p>Explore the iconic destinations that make New Hampshire unforgettable.</p>
+        </div>
+
+        <section style="padding-top: 2rem;">
+
+            <div class="hotspot-card">
+                <div class="hotspot-img"
+                    style="background-image: url('images/pexels-austin-sullivan-48171954-28975820%20Scenic%20Autumn%20View%20of%20Covered%20Bridge%20in%20Lincoln%20NH.jpg');">
+                </div>
+                <div class="hotspot-info">
+                    <h2>White Mountain National Forest</h2>
+                    <p>Experience breathtaking views, hike the majestic Mount Washington, and explore scenic driving
+                        routes. A paradise for outdoor enthusiasts year-round.</p>
+                </div>
+            </div>
+
+            <div class="hotspot-card" style="flex-direction: row-reverse;">
+                <div class="hotspot-img"
+                    style="background-image: url('images/pexels-hoodzie-11152637%20New%20Hampshire%20Town%20Overview%20From%20Sky.jpg');">
+                </div>
+                <div class="hotspot-info">
+                    <h2>Lake Winnipesaukee</h2>
+                    <p>The largest lake in the state, offering boating, swimming, and charming lakeside towns. Perfect
+                        for family getaways and summer relaxation.</p>
+                </div>
+            </div>
+
+            <div class="hotspot-card">
+                <div class="hotspot-img"
+                    style="background-image: url('images/pexels-martin-sanchez-2296169-5723578%20Green%20Trees%20on%20Rocky%20Mountain%20Under%20the%20Blue%20Sky.jpg');">
+                </div>
+                <div class="hotspot-info">
+                    <h2>Portsmouth & The Seacoast</h2>
+                    <p>Discover historic brick sidewalks, incredible dining, and coastal beauty. Stroll through Prescott
+                        Park or visit the Strawberry Banke Museum.</p>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="hotspots.html">Hotspots</a>
+            <a href="contact.html">Contact</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="https://mattyjacks.com/internship" target="_blank">Internships</a>
+        </div>
+        <div style="margin-top: 2rem; color: var(--surface-border); font-size: 0.8rem;">
+            &copy; 2026 Live Free NH Demo. All rights reserved. | Hosted on Vercel
+        </div>
+    </footer>
+
+</body>
+
+</html>

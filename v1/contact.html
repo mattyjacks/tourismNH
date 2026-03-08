@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Tourism in New Hampshire Generic Demo Site Number 1 USA USA USA</title>
+    <meta name="description" content="Contact the team behind the best New Hampshire tourism generic demo site.">
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .contact-container {
+            max-width: 600px;
+            margin: 8rem auto 4rem;
+            padding: 3rem;
+            background: var(--surface);
+            border: 1px solid var(--surface-border);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        .contact-container h1 {
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: var(--gray);
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 1rem;
+            background: rgba(0, 0, 0, 0.2);
+            border: 1px solid var(--surface-border);
+            border-radius: 10px;
+            color: var(--light);
+            font-family: inherit;
+        }
+
+        input:focus,
+        textarea:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+
+        button {
+            width: 100%;
+            border: none;
+            cursor: pointer;
+            padding: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">TINHGDSN1USAUSAUSA</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="hotspots.html">Hotspots</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contact-container">
+            <h1>Get In <span>Touch</span></h1>
+            <form onsubmit="event.preventDefault(); alert('Message sent conceptually!');">
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" required placeholder="John Doe">
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" required placeholder="john@example.com">
+                </div>
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea rows="5" required placeholder="I love New Hampshire!"></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="hotspots.html">Hotspots</a>
+            <a href="contact.html">Contact</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="https://mattyjacks.com/internship" target="_blank">Internships</a>
+        </div>
+        <div style="margin-top: 2rem; color: var(--surface-border); font-size: 0.8rem;">
+            &copy; 2026 Live Free NH Demo. All rights reserved. | Hosted on Vercel
+        </div>
+    </footer>
+
+</body>
+
+</html>
