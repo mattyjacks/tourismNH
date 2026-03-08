@@ -74,23 +74,19 @@
     </header>
 
     <main>
-        <div class="contact-container">
+        <div class="contact-container" style="text-align: center;">
             <h1>Get In <span>Touch</span></h1>
-            <form onsubmit="event.preventDefault(); alert('Message sent conceptually!');">
-                <div class="form-group">
-                    <label>Name</label>
-                    <input type="text" required placeholder="John Doe">
-                </div>
-                <div class="form-group">
-                    <label>Email</label>
-                    <input type="email" required placeholder="john@example.com">
-                </div>
-                <div class="form-group">
-                    <label>Message</label>
-                    <textarea rows="5" required placeholder="I love New Hampshire!"></textarea>
-                </div>
-                <button type="submit" class="btn">Send Message</button>
-            </form>
+            <p style="margin-bottom: 2rem; color: var(--gray);">We'd love to hear from you! Reach out directly or
+                explore our opportunities.</p>
+
+            <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+                <a href="mailto:Matt@mattyjacks.com" class="btn btn-outline" style="font-size: 1.2rem;">📧
+                    Matt@mattyjacks.com</a>
+                <a href="https://mattyjacks.com" target="_blank" class="btn btn-outline" style="font-size: 1.2rem;">🌐
+                    mattyjacks.com</a>
+                <a href="https://mattyjacks.com/internship" target="_blank" class="btn" style="font-size: 1.2rem;">🚀
+                    Apply for an Internship</a>
+            </div>
         </div>
     </main>
 
